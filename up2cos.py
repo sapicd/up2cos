@@ -9,7 +9,7 @@
     :license: BSD 3-Clause, see LICENSE for more details.
 """
 
-__version__ = '0.1.3'
+__version__ = '0.1.4'
 __author__ = 'staugur <staugur@saintic.com>'
 __hookname__ = 'up2cos'
 __description__ = '将图片保存到腾讯云'
@@ -25,7 +25,7 @@ from qcloud_cos import CosConfig, CosS3Client
 
 intpl_localhooksetting = '''
 <div class="layui-col-xs12 layui-col-sm12 layui-col-md6">
-<fieldset class="layui-elem-field" style="margin-bottom: auto;">
+<fieldset class="layui-elem-field layui-field-title" style="margin-bottom: auto;">
     <legend>腾讯云对象存储COS（{% if "up2cos" in g.site.upload_includes %}使用中{% else %}未使用{% endif %}）</legend>
     <div class="layui-field-box">
         <div class="layui-form-item">

@@ -25,7 +25,7 @@ dev:
 
 publish-test:
 	$(MAKE) build
-	twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+	twine upload -r testpypi dist/*
 	$(MAKE) clean
 
 publish-release:
