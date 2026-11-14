@@ -43,7 +43,7 @@ setup(
     author_email=email,
     description='Save uploaded pictures in Tencent COS.',
     long_description=_get_readme(),
-    url='https://github.com/staugur/picbed-up2cos',
+    url='https://github.com/sapicd/up2cos',
     py_modules=['up2cos', ],
     zip_safe=False,
     install_requires=['cos-python-sdk-v5>1.6.0']

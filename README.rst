@@ -1,7 +1,7 @@
 up2cos
 ========
 
-这是基于 `sapic <https://github.com/staugur/sapic>`_ 图床（v2）的一个扩展模块，
+这是基于 `sapic <https://github.com/sapicd/sapic>`_ 图床（v2）的一个扩展模块，
 用来将上传的图片保存到腾讯云
 `对象存储(COS) <https://cloud.tencent.com/product/cos>`_。
 
@@ -18,7 +18,7 @@ up2cos
 
 - 开发版本
 
-    ``$ pip install -U git+https://github.com/staugur/picbed-up2cos.git@master``
+    ``$ pip install -U git+https://github.com/sapicd/up2cos.git@master``
 
 依赖 ``cos-python-sdk-v5``；未安装时钩子仍能加载，只是上传会返回
 ``Please install cos-python-sdk-v5 module``。
